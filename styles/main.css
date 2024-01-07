@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .profile-picture img {
-  margin-right: 20px;
+  margin-right: 80px;
   max-width: 100%;
   height: auto;
   width: 200px;
@@ -78,7 +78,6 @@ body {
   background-color: #d1cb27;
 }
 
-/* Media Query for larger screens */
 @media screen and (min-width: 768px) {
   .profile-picture img {
     width: 300px;
@@ -89,5 +88,35 @@ body {
   .contact {
     padding-left: 100px;
     padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bubbles {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bubble {
+    margin: 10px 0;
+  }
+
+  .name,
+  .info {
+    width: 100%;
+  }
+
+  .top-section {
+    flex-direction: column;
+  }
+
+  .profile-picture img {
+    margin-right: 0;
+  }
+
+  .title,
+  .contact {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
