@@ -1,0 +1,67 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+.title {
+  background-color: #ebe5e5;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  min-height: 95vh;
+  min-width: fit-content;
+}
+
+.contact {
+  display: flex;
+  background-color: #e93656;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-picture img {
+  margin-right: 50px;
+  height: 400px;
+  width: 400px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.top-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bubbles {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.bubble {
+  border-radius: 50%;
+  width: 150px;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background-color: #e93654;
+}
+
+.blue {
+  background-color: #60d0d3;
+}
+
+.yellow {
+  background-color: #d1cb27;
+}
