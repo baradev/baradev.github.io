@@ -1,0 +1,12 @@
+body {
+  background-color: #ebe5e5;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+.heading {
+  margin-top: 60px;
+  margin-left: 60px;
+}
