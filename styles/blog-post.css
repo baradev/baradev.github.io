@@ -16,3 +16,7 @@ body {
 article {
   padding-left: 16px;
 }
+
+h4 {
+  color: grey;
+}
