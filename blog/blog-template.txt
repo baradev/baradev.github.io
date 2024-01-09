@@ -11,13 +11,13 @@
       rel="stylesheet"
     />
 
-    <title>Identity and Values</title>
+    <title></title>
   </head>
 
   <body>
     <header class="titleWrapper">
       <div class="title">
-        <h1>Identity and Values</h1>
+        <h1></h1>
         <h2></h2>
 
         <h4>09 January 2024</h4>
