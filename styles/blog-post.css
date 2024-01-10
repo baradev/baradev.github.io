@@ -1,23 +1,79 @@
 body {
+  min-height: 100vh;
+  margin: 0;
   background-color: #ebe5e5;
-  font-family: 'Open Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+h4 {
+  font-size: smaller;
+  padding-top: 5px;
+  color: grey;
 }
 
-.titleWrapper {
-  border-bottom: 1px solid #60d0d3;
-  margin: 100px 0 40px 0;
+p {
+  padding: 10px 0 10px 0;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .title {
-  border-left: 2px solid #e93654;
-  padding-left: 16px;
-  margin-bottom: 30px;
+  background-color: inherit;
+  padding: 100px 20px 50px;
+  min-height: 95vh;
+  width: 100%;
+  margin-top: 100px;
 }
 
-article {
-  padding-left: 16px;
+.name {
+  display: flex;
+  flex-direction: column;
 }
 
-h4 {
-  color: grey;
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.top-section {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-picture img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .title,
+  .contact {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .name,
+  .info {
+    width: 100%;
+  }
+
+  .top-section {
+    flex-direction: column;
+  }
+
+  .title,
+  .contact {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
