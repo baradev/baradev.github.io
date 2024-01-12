@@ -1,7 +1,10 @@
 body {
-  min-height: 100vh;
   margin: 0;
   background-color: #ebe5e5;
+  padding: 100px 20px 50px;
+  min-height: 95vh;
+  width: 100%;
+  margin-top: 100px;
 }
 
 p {
@@ -11,14 +14,6 @@ p {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-}
-
-.title {
-  background-color: inherit;
-  padding: 100px 20px 50px;
-  min-height: 95vh;
-  width: 100%;
-  margin-top: 100px;
 }
 
 .name {
@@ -81,11 +76,6 @@ p {
     width: 300px;
     height: 300px;
   }
-
-  .title {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -115,10 +105,5 @@ p {
     justify-content: center;
     align-items: center;
     margin: 10px;
-  }
-
-  .title {
-    padding-left: 20px;
-    padding-right: 20px;
   }
 }
