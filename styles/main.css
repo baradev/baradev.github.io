@@ -13,20 +13,24 @@ body {
   text-decoration: none;
 }
 .profile-photo {
-  width: 300px;
-  height: 300px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   background-image: url('../images/profile-photo.jpg');
   background-position: center;
-  background-size: 270px;
+  background-size: 160px;
 }
 p {
   line-height: 200%;
 }
 
+li {
+  margin: 25px 25px 25px 0px;
+}
 a {
   text-decoration: none;
-  color: #333333;
+  color: grey;
+  font-size: large;
 }
 
 .container {
@@ -37,108 +41,49 @@ a {
 .name {
   display: flex;
   flex-direction: column;
-}
-
-.profile-picture img {
-  border-radius: 50%;
-  margin-right: 80px;
-}
-
-.info {
-  flex: 1;
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin-left: 80px;
+  justify-content: center;
 }
 
 .top-section {
-  margin-top: 80px;
+  margin-bottom: 30px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  flex-direction: row;
   justify-content: space-between;
 }
 
-.bubbles {
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-}
-
-.bubble {
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-}
-
-.red {
-  background-color: #e93654;
-  margin-left: 0;
-}
-
-.blue {
-  background-color: #60d0d3;
-}
-
-.yellow {
-  background-color: #d1cb27;
-}
-
-@media screen and (min-width: 768px) {
-  .profile-photo img {
-    width: 300px;
-    height: 300px;
-  }
-}
-
 @media screen and (max-width: 767px) {
-  .bubbles {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .bubble {
-    margin: 10px 0;
-  }
-
-  .name,
-  .info {
+  .name {
     width: 100%;
   }
 
   .top-section {
     flex-direction: column;
+    align-items: flex-start;
   }
 
-  .profile-photo img {
-    width: 160px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
+  .profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('../images/profile-photo.jpg');
+    background-position: center;
+    background-size: 100px;
+    margin-top: 30px;
   }
   footer {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the entire footer content horizontally */
-    text-align: center; /* Center the text in the footer */
+    align-items: flex-start;
+    text-align: center;
   }
   .footer {
     flex-direction: column;
-    align-items: center; /* Center the footer content horizontally */
-    text-align: center; /* Center the text in the footer */
+    align-items: flex-start;
+    text-align: center;
   }
 }
 
-#bubble-heading {
-  color: #333333;
-}
-
-#tech-girl {
-  color: #e93654;
+#myNameColor {
+  color: #ea3654;
 }
