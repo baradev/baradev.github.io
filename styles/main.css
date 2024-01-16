@@ -7,6 +7,12 @@ body {
   margin-top: 100px;
 }
 
+.footer {
+  color: #212529bf;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
 p {
   line-height: 200%;
 }
@@ -105,6 +111,17 @@ p {
     justify-content: center;
     align-items: center;
     margin: 10px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the entire footer content horizontally */
+    text-align: center; /* Center the text in the footer */
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center; /* Center the footer content horizontally */
+    text-align: center; /* Center the text in the footer */
   }
 }
 
