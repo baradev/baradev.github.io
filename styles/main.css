@@ -12,7 +12,15 @@ body {
   margin-right: 50px;
   text-decoration: none;
 }
-
+.profile-photo {
+  width: 300px;
+  height: 300px;
+  background: red;
+  border-radius: 50%;
+  background-image: url('/Users/barbora/Projects/DevAcademy/baradev.github.io/images/IMG_5534.JPG');
+  background-position: center;
+  background-size: 270px;
+}
 p {
   line-height: 200%;
 }
@@ -37,7 +45,7 @@ p {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 80px;
 }
 
 .top-section {
@@ -77,7 +85,7 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  .profile-picture img {
+  .profile-photo img {
     width: 300px;
     height: 300px;
   }
@@ -102,8 +110,7 @@ p {
     flex-direction: column;
   }
 
-  .profile-picture img {
-    border-radius: 50%;
+  .profile-photo img {
     width: 160px;
     height: 160px;
     display: flex;
