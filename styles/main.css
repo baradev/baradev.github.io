@@ -37,6 +37,7 @@ p {
 
 .info {
   flex: 1;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   margin-left: 20px;
@@ -67,6 +68,7 @@ p {
 
 .red {
   background-color: #e93654;
+  margin-left: 0;
 }
 
 .blue {
