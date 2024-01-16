@@ -15,9 +15,8 @@ body {
 .profile-photo {
   width: 300px;
   height: 300px;
-  background: red;
   border-radius: 50%;
-  background-image: url('/Users/barbora/Projects/DevAcademy/baradev.github.io/images/IMG_5534.JPG');
+  background-image: url('../images/profile-photo.jpg');
   background-position: center;
   background-size: 270px;
 }
