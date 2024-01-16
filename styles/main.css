@@ -24,6 +24,11 @@ p {
   line-height: 200%;
 }
 
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
