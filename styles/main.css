@@ -6,11 +6,15 @@ body {
   width: 100%;
   margin-top: 80px;
 }
+.socials {
+  display: flex;
+  flex-direction: row;
+}
 
-.footer {
+.footer-icons {
   color: #212529bf;
-  margin-right: 50px;
   text-decoration: none;
+  margin: 20px;
 }
 .profile-photo {
   width: 180px;
@@ -53,13 +57,18 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+  body {
+    text-align: center;
+  }
+
   .name {
     width: 100%;
+    text-align: center;
   }
 
   .top-section {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .profile-photo {
@@ -71,16 +80,16 @@ a {
     background-size: 100px;
     margin-top: 30px;
   }
-  footer {
+
+  .footer {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
   }
-  .footer {
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: center;
+
+  li {
+    text-align: left;
   }
 }
 
