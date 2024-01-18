@@ -74,7 +74,8 @@ a {
   }
 .profile-picture {
   display: flex;
-  align-items: normal;
+  align-items: center;
+  justify-content: center;
 }
   .name {
     width: 100%;
