@@ -1,14 +1,17 @@
 body {
-  margin: 0;
   background-color: #ebe5e5;
   padding: 100px 20px 50px;
   min-height: 95vh;
   width: 100%;
-  margin-top: 80px;
+  padding: 0;
 }
 .socials {
   display: flex;
   flex-direction: row;
+}
+
+header {
+  margin-top: 50px;
 }
 
 .footer-icons {
@@ -16,10 +19,9 @@ body {
   text-decoration: none;
   margin: 20px;
 }
-profile-picture{
+profile-picture {
   display: flex;
-align-items: center;  
-  
+  align-items: center;
 }
 
 .profile-photo {
@@ -68,6 +70,7 @@ a {
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 150px;
 }
 
 @media screen and (max-width: 767px) {
@@ -91,7 +94,7 @@ a {
     background-image: url('../images/profile-photo.jpg');
     background-position: center;
     background-size: 100px;
-    margin:0;
+    margin: 0;
   }
 
   .footer {
