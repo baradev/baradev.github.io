@@ -18,7 +18,7 @@ body {
 }
 .profile-picture {
   display: flex;
-  align-items: normal
+  align-items: center;
 }
 .profile-photo {
   width: 180px;
@@ -74,7 +74,7 @@ a {
   }
 .profile-picture {
   display: flex;
-  align-items: inherit;
+  align-items: normal;
 }
   .name {
     width: 100%;
