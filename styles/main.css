@@ -79,8 +79,6 @@ a {
   }
 .profile-picture {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
   .top-section {
     flex-direction: column;
