@@ -18,7 +18,9 @@ h4 {
 header {
   margin-top: 50px;
 }
-
+.hr-header {
+  color: rgb(144, 137, 137);
+}
 p {
   padding: 10px 0 10px 0;
 }

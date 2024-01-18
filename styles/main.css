@@ -57,7 +57,9 @@ a {
   max-width: 1000px;
   margin: 0 auto;
 }
-
+.hr-header {
+  color: rgb(144, 137, 137);
+}
 .name {
   display: flex;
   flex-direction: column;
