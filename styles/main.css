@@ -85,7 +85,7 @@ a {
     background-image: url('../images/profile-photo.jpg');
     background-position: center;
     background-size: 100px;
-    margin-top: 30px;
+    margin-top: 30px auto 0;
   }
 
   .footer {
