@@ -78,7 +78,7 @@ a {
     text-align: center;
   }
 .profile-picture {
-  display: flex;
+  display: block;
 }
   .top-section {
     flex-direction: column;
