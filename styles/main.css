@@ -16,10 +16,6 @@ body {
   text-decoration: none;
   margin: 20px;
 }
-.profile-picture {
-  display: flex;
-  align-items: center;
-}
 .profile-photo {
   width: 180px;
   height: 180px;
@@ -77,9 +73,6 @@ a {
     width: 100%;
     text-align: center;
   }
-.profile-picture {
-  display: block;
-}
   .top-section {
     flex-direction: column;
     align-items: center;
