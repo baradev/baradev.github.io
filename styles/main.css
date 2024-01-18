@@ -16,6 +16,10 @@ body {
   text-decoration: none;
   margin: 20px;
 }
+.profile-picture {
+  display: flex;
+  align-items: center;
+}
 .profile-photo {
   width: 180px;
   height: 180px;
@@ -23,7 +27,15 @@ body {
   background-image: url('../images/profile-photo.jpg');
   background-position: center;
   background-size: 160px;
+  margin-left: 60px;
 }
+.posts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
 p {
   line-height: 200%;
 }
@@ -90,6 +102,10 @@ a {
 
   li {
     text-align: left;
+  }
+
+  .posts {
+    flex-direction: column;
   }
 }
 
