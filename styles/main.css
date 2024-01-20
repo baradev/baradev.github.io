@@ -52,6 +52,9 @@ a {
   color: grey;
   font-size: large;
 }
+a:hover {
+  color: #ea3654;
+}
 
 .container {
   max-width: 1000px;
